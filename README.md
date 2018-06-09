@@ -1,5 +1,7 @@
 # page-styler
 
+[See the solution here][].
+
 ## Part 1
 
 - [ ] Clicking on the `A-` button should **decrease** the font size of the page
@@ -18,3 +20,5 @@
 - [ ] Clicking on each of the above buttons should change the `background-color`
   of the page to the specified colour
   - e.g. clicking on `red` should change the background colour to red
+
+[solution]: https://github.com/thoughtworks-jumpstart/apple-css-lab/tree/solution
