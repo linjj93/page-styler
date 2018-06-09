@@ -21,4 +21,4 @@
   of the page to the specified colour
   - e.g. clicking on `red` should change the background colour to red
 
-[solution]: https://github.com/thoughtworks-jumpstart/apple-css-lab/tree/solution
+[solution]: https://github.com/thoughtworks-jumpstart/page-styler/tree/solution
