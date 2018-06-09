@@ -7,13 +7,21 @@
 	</head>
 	<body>
 		<ul id="switcher">
-			<li class="smaller">A-</li>
-			<li class="normal">A</li>
-			<li class="bigger">A+</li>
+			<li class="smaller" onclick="updateClass('smaller');">A-</li>
+			<li class="normal" onclick="updateClass('');">A</li>
+			<li class="bigger" onclick="updateClass('bigger');">A+</li>
+		</ul>
+
+		<ul id="color-switcher">
+			<li class="red" onclick="updateClass('red')">red</li>
+			<li class="green" onclick="updateClass('green')">green</li>
+			<li class="blue" onclick="updateClass('blue')">blue</li>
 		</ul>
 
 		<h1>Page Styler</h1>
 
 		<p>Click the buttons above to change the page styles!</p>
+
+		<script src="script.js"></script>
 	</body>
 </html>
