@@ -1,6 +1,6 @@
 # page-styler
 
-[See the solution here][].
+[See the solution here][solution].
 
 ## Part 1
 
