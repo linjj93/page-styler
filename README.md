@@ -1,5 +1,8 @@
 # page-styler
 
+**This is the solution to the assignment**. [Go back to the original assignment
+without the solution][master].
+
 ## Part 1
 
 - [ ] Clicking on the `A-` button should **decrease** the font size of the page
@@ -18,3 +21,5 @@
 - [ ] Clicking on each of the above buttons should change the `background-color`
   of the page to the specified colour
   - e.g. clicking on `red` should change the background colour to red
+
+[master]: https://github.com/thoughtworks-jumpstart/page-styler
