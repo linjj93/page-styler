@@ -1,7 +1,5 @@
 # page-styler
 
-[See the solution here][solution].
-
 ## Part 1
 
 - [ ] Clicking on the `A-` button should **decrease** the font size of the page
