@@ -25,8 +25,8 @@ p {
 }
 
 #switcher li {
-	width: 2rem;
-	line-height: 2rem;
+	width: 3rem;
+	line-height: 3rem;
 	border: 1px dotted;
 	text-align: center;
 	cursor: pointer;
@@ -44,3 +44,14 @@ p {
 	font-size: larger;
 }
 
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
