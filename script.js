@@ -1,30 +1,38 @@
-let smallBtn = document.querySelector(".smaller");
-let normalBtn = document.querySelector(".normal");
-let biggerBtn = document.querySelector(".bigger");
-let redBtn = document.querySelector(".red");
-let greenBtn = document.querySelector(".green");
-let blueBtn = document.querySelector(".blue");
+// let smallBtn = document.querySelector(".smaller");
+// let normalBtn = document.querySelector(".normal");
+// let biggerBtn = document.querySelector(".bigger");
+// let redBtn = document.querySelector(".red");
+// let greenBtn = document.querySelector(".green");
+// let blueBtn = document.querySelector(".blue");
 
-smallBtn.addEventListener("click", function(event) {
-  document.body.className = "smaller";
+//After understanding event bubbling 
+//we now know we can just place the click listener on the parent element 
+let ul = document.querySelector("ul");
+
+ul.addEventListener("click", function(event) {
+  document.body.className = event.target.className;
 });
 
-normalBtn.addEventListener("click", function(event) {
-  document.body.className = "normal";
-});
+// smallBtn.addEventListener("click", function(event) {
+//   document.body.className = "smaller";
+// });
 
-biggerBtn.addEventListener("click", function(event) {
-  document.body.className = "bigger";
-});
+// normalBtn.addEventListener("click", function(event) {
+//   document.body.className = "normal";
+// });
 
-redBtn.addEventListener("click", function(event) {
-  document.body.className = "red";
-});
+// biggerBtn.addEventListener("click", function(event) {
+//   document.body.className = "bigger";
+// });
 
-greenBtn.addEventListener("click", function(event) {
-  document.body.className = "green";
-});
+// redBtn.addEventListener("click", function(event) {
+//   document.body.className = "red";
+// });
 
-blueBtn.addEventListener("click", function(event) {
-  document.body.className = "blue";
-});
+// greenBtn.addEventListener("click", function(event) {
+//   document.body.className = "green";
+// });
+
+// blueBtn.addEventListener("click", function(event) {
+//   document.body.className = "blue";
+// });
